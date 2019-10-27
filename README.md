@@ -12,13 +12,23 @@ Srt of exercised solved in C++.
   1) Define the class ShoppingCart supporting multi-item shoppings. The class should contain the following fields: a customer name and two arrays/lists of the same size (empty by default) – the first for product names (being strings) and the second one for costs (being real numbers) of the subsequent products. Implement the following public methods of the class :
   
         • the constructor with a string as a parameter being a customer name,
+        
         • the copy-constructor and the assignment operator,
+        
         • the destructor,
+        
         • setCustomer and getCustomer methods,
+        
         • addItem – with a product name as the first parameter (being string) and its cost as the second parameter (being a real value),
+        
         • removeItem – with a product name as a parameter, removing the item from the the cart together with its cost (or throwing an error if the product is not in the cart),
+        
         • size – returning the number of items in the shopping cart,
+        
         • totalCost – returning the total cost of all the items in the cart,
+        
         • getItemCount – returning the summary count of all the items in all the shopping carts currently available,
+        
         • the indexing operator ([]) – with a product name as a parameter, returning the cost of the product placed within the cart (an error should be thrown for the product name not existing in the cart),
+        
         • the shift operator (<<) – printing t
