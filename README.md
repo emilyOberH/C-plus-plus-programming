@@ -34,13 +34,23 @@ Srt of exercised solved in C++.
         • the shift operator (<<) – printing t
         
   2)  Define a class of travel Itinerary supporting multi-point routes. The class should contain the following fields: a description of the travel, two city names denoting the starting point and the ending point of the travel (being strings), a travel distance being a real number, and an array/list of city names (being strings) for additional via points (empty by default). Implement the following public methods of the class:
-    • the constructor with three strings as parameters, denoting respectively: a description of the travel, and city names being the starting point and the ending point,
-    • the copy-constructor and the assignment operator,
-    • the destructor,
-    • setDescription, getDescription, setDistance, getDistance methods (distances are in km),
-    • addViaPoint – with a city name as a parameter, adding a new via point to the itinerary as the last via point,
-    • removeViaPoint – with a city name as a parameter, removing the city from the via points of the itinerary (or throwing an error if the city is not in the itinerary),
-    • size – returning the number of cities in the itinerary,
-    • getSummaryDistance – returning the summary distance of all the itineraries currently available,
-    • the indexing operator ([]) – returning the city name placed within the itinerary on the position given as a parameter (1 means the starting point, 2 means the first via point or the ending point for the shortest route, etc., an error should be thrown for the position exceeding the size of the itinerary),
-    • the shift operator (<<) – printing the description, the distance and the list of all the successive cities in the itinerary
+  
+        • the constructor with three strings as parameters, denoting respectively: a description of the travel, and city names being the starting point and the ending point,
+    
+        • the copy-constructor and the assignment operator,
+    
+        • the destructor,
+    
+        • setDescription, getDescription, setDistance, getDistance methods (distances are in km),
+    
+        • addViaPoint – with a city name as a parameter, adding a new via point to the itinerary as the last via point,
+    
+        • removeViaPoint – with a city name as a parameter, removing the city from the via points of the itinerary (or throwing an error if the city is not in the itinerary),
+    
+        • size – returning the number of cities in the itinerary,
+    
+        • getSummaryDistance – returning the summary distance of all the itineraries currently available,
+    
+        • the indexing operator ([]) – returning the city name placed within the itinerary on the position given as a parameter (1 means the starting point, 2 means the first via point or the ending point for the shortest route, etc., an error should be thrown for the position exceeding the size of the itinerary),
+    
+        • the shift operator (<<) – printing the description, the distance and the list of all the successive cities in the itinerary
