@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1576511849 source:d:\pliki u퓓tkownika\student\pulpit\lab12\main.cpp
+	<iostream>
+	"Schedule.h"
+	"Work.h"
+
+1576511972 d:\pliki u퓓tkownika\student\pulpit\lab12\schedule.h
+	<string>
+	<iostream>
+	<list>
+	<stdexcept>
+	"Work.h"
+
+1576511474 d:\pliki u퓓tkownika\student\pulpit\lab12\work.h
+	<iostream>
+
+1576509673 source:d:\pliki u퓓tkownika\student\pulpit\lab12\schedule.cpp
+	"Schedule.h"
+
+1576511794 source:d:\pliki u퓓tkownika\student\pulpit\lab12\work.cpp
+	"Work.h"
+
+1578895241 source:c:\users\user\downloads\main.cpp
+	<iostream>
+	"Schedule.h"
+	"Work.h"
+
+1578896784 c:\users\user\downloads\schedule.h
+	<string>
+	<iostream>
+	<list>
+	<stdexcept>
+	"Work.h"
+
+1578893381 c:\users\user\downloads\work.h
+	<iostream>
+	<string>
+
+1578888158 source:c:\users\user\downloads\work.cpp
+	"Work.h"
+
+1578895050 source:c:\users\user\downloads\schedule.cpp
+	"Schedule.h"
+	<iostream>
+	<sstream>
+	<list>
+	<string>
+	<vector>
+
